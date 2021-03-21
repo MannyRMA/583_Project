@@ -1,0 +1,33 @@
+<!--
+    CPSC 583 Term Project
+    Manuel Rodriguez
+    Visualzing 2020 hitting and sabermetric data of the projected top 202 MLB players for 2021
+-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Top 202 MLB Hitters Data</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+    </head>
+
+    <body>
+        <script type="text/javascript" src="visualization.js"></script>
+            <svg width="1000" height="900">
+                <image x="-100" y="300" width="600" height="600" xlink:href="Point-Of-Contact.jpg"/>
+                <g class="scatter"></g>
+                <g class="axis" id="axis_EV"></g>
+                <g class="axis" id="axis_LA"></g>
+            </svg>
+
+            <svg class="pie" height="360" width="540"> </svg>
+
+            <svg class="B_graph" width="5050" height="600">
+                <g class="bars"></g>
+                <g class="axis" id="axis_AVG_X"></g>
+                <g class="axis" id="axis_AVG_Y"></g>
+            </svg>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(#2b5876, #4e4376);
+}
+
+.axis {
+    stroke: #CAFFFD;
+    fill: #CAFFFD;
+    font-size: smaller;
+}
+
+.B_graph {
+    padding-top: 100px;
+}
+
+.pie {
+    float: right;
+    margin-top: 200px;
+}
