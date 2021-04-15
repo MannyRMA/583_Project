@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#2b5876, #4e4376);
+    background: linear-gradient(#4e4376, #2b5876);
 }
 
 .axis {
@@ -16,3 +16,8 @@ body {
     float: right;
     margin-top: 200px;
 }
+
+.Teams_Bar {
+    position: relative;
+}
+
